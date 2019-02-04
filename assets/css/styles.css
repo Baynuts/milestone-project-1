@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle|Raleway:200,300,400,500,600,700');
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.hero {
+    background-color: #C26932;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: chicle;
+    padding: 5px 5px 5px 25px;
+}
+
+.jumbotron h1 {
+    font-size: 2em;
+}
+
+.jumbotron p {
+    font-size: 1em;
+}
+
+.jumbotron {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #786a5d;
+}
+
+.header-image {
+    background-image: url("/assets/images/monkees-header.jpg");
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 680px;
+    padding: 50px 50px 0 50px;
+}
+
+.banner {
+    border-left: 5px solid #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 200px 15px 20px 15px;
+    width: 97%;
+}
+
+.box {
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-left: 5px solid #fff;
+}
+
+.albums-row {
+    height: 250px;
+    background-color: #2E2928;
+    margin-top: 0;
+}
