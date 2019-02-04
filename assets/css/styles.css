@@ -4,12 +4,76 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: -30px;
+    border:none;
+}
+
+
+
+.navbar-inverse {
+    background-color: #211C16;
+    background-image: linear-gradient(#211C16, #3C352D);
+}
+
+.navbar-inverse .navbar-brand {
+    font-family: chicle;
+    font-size: 2.9em;
+    margin-right: 90px;
+    padding: 15px 50px;
+    line-height: 32px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #E5D5B7;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #F1E9D8;
+}
+
+
+ul.nav.navbar-nav {
+    border-bottom: 5px solid #90332E;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: #E5D5B7;
+    background-color: #90332E;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+        background-color: #90332E;
+    color: #F1E9D8
+}
+
+
+
+
+.navbar-inverse .navbar-nav>li>a {
+    padding: 18px 40px 18px 40px;
+    color: #D97E33;
+        text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
 .hero {
     background-color: #C26932;
     line-height: 40px;
     text-transform: uppercase;
     font-family: chicle;
     padding: 5px 5px 5px 25px;
+    font-size: 1.6em;
+    display: block;
 }
 
 .jumbotron h1 {
@@ -50,7 +114,62 @@ body {
 }
 
 .albums-row {
-    height: 250px;
     background-color: #2E2928;
     margin-top: 0;
+    position: relative;
+}
+
+h2.albums {
+    font-family: chicle;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+h2.albums:before, h2.albums:after {
+    position: absolute;
+    top: 35px;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: #fff;
+}
+h2.albums:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+.product-list {
+    padding: 10px;
+    background-color: #E5D5B7;
+}
+
+.product-list>h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.0em;
+    text-align: center;
+    color: #201B15;
+}
+
+.product-list>span {
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.cta {
+    display: block;
+    background-color: #C26932;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
 }
