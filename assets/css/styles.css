@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle|Raleway:200,300,400,500,600,700');
 
+html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Raleway", sans-serif;
 }
 
+/*--------------------------- Navigation  -----*/
 
 .navbar {
     position: relative;
     min-height: 50px;
     margin-bottom: -30px;
-    border:none;
+    border: none;
 }
-
-
 
 .navbar-inverse {
     background-color: #211C16;
@@ -31,10 +36,10 @@ body {
     color: #E5D5B7;
 }
 
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover {
     color: #F1E9D8;
 }
-
 
 ul.nav.navbar-nav {
     border-bottom: 5px solid #90332E;
@@ -45,26 +50,20 @@ ul.nav.navbar-nav {
     background-color: #90332E;
 }
 
-.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-        background-color: #90332E;
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #90332E;
     color: #F1E9D8
 }
-
-
-
 
 .navbar-inverse .navbar-nav>li>a {
     padding: 18px 40px 18px 40px;
     color: #D97E33;
-        text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 800;
 }
 
-
-
-
-
-
+/*--------------------------- Hero area -----*/
 
 .hero {
     background-color: #C26932;
@@ -101,7 +100,7 @@ ul.nav.navbar-nav {
 }
 
 .banner {
-    border-left: 5px solid #fff;
+    border-left: 5px solid #e5d5b7;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 200px 15px 20px 15px;
     width: 97%;
@@ -110,39 +109,54 @@ ul.nav.navbar-nav {
 .box {
     height: 250px;
     background-color: rgba(0, 0, 0, 0.7);
-    border-left: 5px solid #fff;
+    border-left: 5px solid #e5d5b7;
 }
+
+
+
+
+
+
+
+/*--------------------------- Albums section -----*/
 
 .albums-row {
     background-color: #2E2928;
     margin-top: 0;
     position: relative;
+    padding-bottom: 50px;
 }
 
 h2.albums {
     font-family: chicle;
     color: #fff;
     text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 
-h2.albums:before, h2.albums:after {
+h2.albums:before,
+h2.albums:after {
     position: absolute;
-    top: 35px;
+    top: 46px;
     overflow: hidden;
     width: 50%;
     height: 1px;
     content: '\a0';
-    background-color: #fff;
+    background-color: #e5d5b7;
 }
+
 h2.albums:before {
     margin-left: -50%;
     text-align: right;
 }
 
 .product-list {
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     background-color: #E5D5B7;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .product-list>h3 {
@@ -155,7 +169,7 @@ h2.albums:before {
 
 .product-list>span {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.5em;
     display: block;
     font-weight: 700;
     font-family: sans-serif;
@@ -168,8 +182,141 @@ h2.albums:before {
     margin-right: -10px;
     text-align: center;
     line-height: 50px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 800;
     text-transform: uppercase;
     color: #fff;
 }
+
+/*--------------------------- Audio section -----*/
+
+
+.book-section {
+    background-color: #D97E33;
+}
+
+h2.book-heading {
+    font-family: chicle;
+    color:#e5d5b7;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+h2.book-heading:before,
+h2.book-heading:after {
+    position: absolute;
+    top: 46px;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: #e5d5b7;
+}
+
+h2.book-heading:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+blockquote {
+    font-size: 15px;
+        background-color: #e5d5b7;
+    border-left: 5px solid #c26932;
+}
+
+
+p.book {
+    font-size: 15px;
+    padding: 0 5px 5px 5px;
+}
+
+.book>a {
+    color: #e5d5b7;
+    font-weight: 700;
+}
+
+.btn.btn-book {
+    background-color: #c26932;
+    color: #e5d5b7;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.book-btn-container {
+    text-align: center;
+}
+
+/*--------------------------- Footer -----*/
+
+.footer {
+    background-color: #1E1B1A;
+    color: #E5D5B7;
+
+}
+
+.top-footer {
+    border-top: 10px solid #E5D5B7;
+}
+
+.top-footer li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.social {
+    height: 100px;
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.fab {
+    font-size: 3em;
+    color: #E5D5B7;
+}
+
+.social-box {
+    float: left;
+    width: 100px;
+}
+
+.social-icons {
+    display: block;
+}
+
+a.social-links {
+    color: #E5D5B7;
+    font-size: 0.7em;
+
+}
+
+ul.link-list {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    text-transform: uppercase;
+
+}
+
+.link-list>li {
+    display: inline;
+    padding: 5px 20px 15px 20px;
+    font-weight: 600;
+}
+
+.links {
+    text-align: center;
+}
+
+.bottom-footer {
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: 10px;
+}
+
+
+
