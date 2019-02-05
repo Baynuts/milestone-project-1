@@ -4,6 +4,7 @@ html {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    height: 100%;
 }
 
 body {
@@ -27,9 +28,6 @@ body {
 .navbar-inverse .navbar-brand {
     font-family: chicle;
     font-size: 2.9em;
-    margin-right: 90px;
-    padding: 15px 50px;
-    line-height: 32px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -57,7 +55,7 @@ ul.nav.navbar-nav {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    padding: 18px 40px 18px 40px;
+    padding: 18px 20px 18px 20px;
     color: #D97E33;
     text-transform: uppercase;
     font-weight: 800;
@@ -66,7 +64,7 @@ ul.nav.navbar-nav {
 /*--------------------------- Hero area -----*/
 
 .hero {
-    background-color: #C26932;
+    background-color: #D97E33;
     line-height: 40px;
     text-transform: uppercase;
     font-family: chicle;
@@ -85,38 +83,74 @@ ul.nav.navbar-nav {
 
 .jumbotron {
     padding-bottom: 0px;
-    margin-bottom: 0px;
     color: white;
-    background-color: #786a5d;
+    background-color: transparent;
 }
 
 .header-image {
     background-image: url("/assets/images/monkees-header.jpg");
-    background-position: center top;
-    background-size: 100%;
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 680px;
-    padding: 50px 50px 0 50px;
+    background-size: cover;
 }
 
 .banner {
-    border-left: 5px solid #e5d5b7;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(41, 36, 29, 0.9);
     margin: 200px 15px 20px 15px;
     width: 97%;
 }
 
 .box {
-    height: 250px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-left: 5px solid #e5d5b7;
+    height: 220px;
+    background-color: rgba(41, 36, 29, 0.76);
+    margin-top: 10px;
 }
 
+.box.reminisce {
+    background-image: url("/assets/images/history-hero.jpg");
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
+.event-list {
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
 
+.hero-container {
+    padding: 20px;
+}
 
+p.hero-title {
+    font-family: chicle;
+    font-size: 2em;
+}
 
+.hero-top {
+    display: block;
+}
 
+.hero-location {
+    display: block;
+}
+
+.hero-cor {
+    height: 40px;
+    width: 40px;
+    background-color: #90332e;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+.fas.fa-caret-right {
+    font-size: 3em;
+    color: #fff;
+    padding-left: 15px;
+}
 
 /*--------------------------- Albums section -----*/
 
@@ -129,12 +163,11 @@ ul.nav.navbar-nav {
 
 h2.albums {
     font-family: chicle;
-    color: #fff;
+    color: #E5D5B7;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 40px;
 }
-
 
 h2.albums:before,
 h2.albums:after {
@@ -155,16 +188,21 @@ h2.albums:before {
 .product-list {
     padding: 10px 10px 0 10px;
     background-color: #E5D5B7;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
+}
+
+.product-list .img-responsive {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product-list>h3 {
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 1.0em;
+    font-size: 0.8em;
     text-align: center;
     color: #201B15;
+    height: 30px;
 }
 
 .product-list>span {
@@ -188,8 +226,7 @@ h2.albums:before {
     color: #fff;
 }
 
-/*--------------------------- Audio section -----*/
-
+/*--------------------------- Book Us section -----*/
 
 .book-section {
     background-color: #D97E33;
@@ -197,12 +234,11 @@ h2.albums:before {
 
 h2.book-heading {
     font-family: chicle;
-    color:#e5d5b7;
+    color: #e5d5b7;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 40px;
 }
-
 
 h2.book-heading:before,
 h2.book-heading:after {
@@ -222,14 +258,12 @@ h2.book-heading:before {
 
 blockquote {
     font-size: 15px;
-        background-color: #e5d5b7;
+    background-color: #e5d5b7;
     border-left: 5px solid #c26932;
 }
 
-
 p.book {
     font-size: 15px;
-    padding: 0 5px 5px 5px;
 }
 
 .book>a {
@@ -304,7 +338,7 @@ ul.link-list {
 
 .link-list>li {
     display: inline;
-    padding: 5px 20px 15px 20px;
+    padding: 5px 10px 15px 10px;
     font-weight: 600;
 }
 
@@ -319,4 +353,81 @@ ul.link-list {
 }
 
 
+/*--------------------------- Media Queries -----*/
 
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        padding: 20px 20px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    .navbar-brand {
+        padding-left: 200px;
+        padding-right: 100px;
+    }
+}
+
+
+
+
+/*--------------------------- Additional Pages -----*/
+
+.listen-image {
+    background-image: url("/assets/images/listen-header.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        text-align: center;
+}
+
+.listen-h2 {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.table.table-bordered {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.static-page {
+    background-color: #E5D5B7;
+}
+
+.static-container.container {
+    padding: 0 20px 0 20px;
+        text-align: center;
+}
+
+video {
+    border: 5px solid #d97e32;
+    border-radius: 10px;
+        max-width: 800px;
+}
+
+.row.listen-row {
+    background-color: #d97e32;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.audio-showcase>p {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #1e1b1a;
+    padding-bottom: 10px;
+}
+.audio-showcase span {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 1);
+    font-style: italic;
+        font-weight: 200;
+}
