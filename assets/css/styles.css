@@ -509,12 +509,49 @@ ul.event-listing {
 }
 /*--------------------------- About Page -----*/
 
+.members {
+    background-color: rgba(39, 33, 27, 0.7);
+    height: 250px;
+        margin-bottom: 25px;
+        
+}
+.artist-left {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 1.2em;
+    color: #fff;
+        padding-left: 40px;
+}
 
+.artist-right {
+    padding-top: 30px;
+    text-align: right;
+    font-size: 1.2em;
+    color: #fff;
+    padding-right: 40px;
+}
 
+p.name {
+    font-weight: 600;
+}
+img.img-right {
+    right: -25px;
+    position: relative;
+}
 
+img.img-left {
+    left: -25px;
+    position: relative;
+}
 
+section.album-history {
+    background-color: #d97e32;
+}
 
-
+table.table.table-bordered {
+    color: #1e1b1a;
+    background-color: #e5d5b7;
+}
 
 
 
