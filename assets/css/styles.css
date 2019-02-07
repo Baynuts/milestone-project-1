@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Chicle|Raleway:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Chicle|Raleway:400,600,700');
 
 html {
     padding: 0;
@@ -10,6 +10,7 @@ html {
 body {
     font-family: "Raleway", sans-serif;
 }
+
 
 /*--------------------------- Navigation  -----*/
 
@@ -27,7 +28,7 @@ body {
 
 .navbar-inverse .navbar-brand {
     font-family: chicle;
-    font-size: 2.9em;
+    font-size: 3.2em;
 }
 
 .navbar-inverse .navbar-brand {
@@ -41,6 +42,8 @@ body {
 
 ul.nav.navbar-nav {
     border-bottom: 5px solid #90332E;
+    bottom: -7px;
+    position: relative;
 }
 
 .navbar-inverse .navbar-nav>.active>a {
@@ -59,6 +62,67 @@ ul.nav.navbar-nav {
     color: #D97E33;
     text-transform: uppercase;
     font-weight: 800;
+}
+
+.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-toggle.collapsed {
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-toggle {
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    width: 30px;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #91312a;
+}
+
+
+/*--------------------------- Fonts -----*/
+
+h1.main-heading {
+    font-family: chicle;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 2.5em!important;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1.main-heading:before,
+h1.main-heading:after {
+    background-color: #e5d5b4;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h1.main-heading:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h1.main-heading:after {
+    left: 0.5em;
+    margin-right: -50%;
 }
 
 /*--------------------------- Hero area -----*/
@@ -96,14 +160,14 @@ ul.nav.navbar-nav {
 }
 
 .banner {
-    background-color: rgba(41, 36, 29, 0.9);
-    margin: 200px 15px 20px 15px;
-    width: 97%;
+    background-color: rgba(30, 27, 26, 0.7);
+    margin: 200px 10px 0px 10px;
+    width: 93%;
 }
 
 .box {
     height: 220px;
-    background-color: rgba(41, 36, 29, 0.76);
+    background-color: rgba(30, 27, 26, 0.7);
     margin-top: 10px;
 }
 
@@ -262,6 +326,7 @@ p.book {
     background-color: #c26932;
     color: #e5d5b7;
     border-radius: 30px;
+    margin-bottom: 20px;
     font-weight: 700;
 }
 
@@ -274,7 +339,6 @@ p.book {
 .footer {
     background-color: #1E1B1A;
     color: #E5D5B7;
-
 }
 
 .top-footer {
@@ -312,7 +376,6 @@ p.book {
 a.social-links {
     color: #E5D5B7;
     font-size: 0.7em;
-
 }
 
 ul.link-list {
@@ -320,7 +383,6 @@ ul.link-list {
     width: 100%;
     padding: 0;
     text-transform: uppercase;
-
 }
 
 .link-list>li {
@@ -356,9 +418,6 @@ a.fab.fa-youtube-square.social-icons:hover {
 }
 
 
-
-
-
 /*--------------------------- Listen Page -----*/
 
 .listen-image {
@@ -367,7 +426,7 @@ a.fab.fa-youtube-square.social-icons:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-        text-align: center;
+    text-align: center;
 }
 
 .listen-h2 {
@@ -377,7 +436,8 @@ a.fab.fa-youtube-square.social-icons:hover {
 }
 
 .table.table-bordered {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(30, 27, 26, 0.7);
+    color: #fff;
 }
 
 .static-page {
@@ -386,13 +446,14 @@ a.fab.fa-youtube-square.social-icons:hover {
 
 .static-container.container {
     padding: 0 20px 0 20px;
-        text-align: center;
+    text-align: center;
 }
 
 video {
     border: 5px solid #d97e32;
     border-radius: 10px;
-        max-width: 800px;
+    width: 100%;
+    max-width: 800px;
 }
 
 .row.listen-row {
@@ -407,15 +468,16 @@ video {
     color: #1e1b1a;
     padding-bottom: 10px;
 }
+
 .audio-showcase span {
     font-size: 1em;
     color: rgba(0, 0, 0, 1);
     font-style: italic;
-        font-weight: 200;
+    font-weight: 200;
 }
 
 
-/*--------------------------- Listen Page -----*/
+/*--------------------------- Contact Page -----*/
 
 .contact-image {
     background-image: url("/assets/images/contact-header.jpg");
@@ -423,14 +485,14 @@ video {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-        text-align: center;
+    text-align: center;
 }
 
 .contact-form {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
-    background-color: #d97e33;
-        margin-top: 20px;
+    background-color: #e5d5b4;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -449,33 +511,28 @@ video {
 
 /*--------------------------- Event Page -----*/
 
-
 .event-image {
     background-image: url("/assets/images/events-header.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-        text-align: center;
+    text-align: center;
 }
 
-
-
-
-
 .book-us {
-    background-color: #e5d5b736;
+    background-color: rgba(41, 36, 29, 0.76);
 }
 
 .book-us blockquote {
     height: 200px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .book-us h2 {
     font-family: chicle;
     color: #e5d5b7;
-    font-size: 2.5em;
+    font-size: 2em;
     background-color: #d77a30;
     margin-top: 0px;
     margin-left: -15px;
@@ -484,15 +541,14 @@ video {
 }
 
 .event-list-lg {
-    background-color: rgba(39, 33, 27, 0.6);
+    background-color: rgba(30, 27, 26, 0.7);
+    margin-bottom: 50px;
 }
-    
-    
 
 .event-list-lg h2 {
     font-family: chicle;
     color: #e5d5b7;
-    font-size: 2.5em;
+    font-size: 2em;
     background-color: #d77a30;
     margin-top: 0px;
     margin-left: -15px;
@@ -501,59 +557,62 @@ video {
 }
 
 ul.event-listing {
-    line-height: 3em;
     list-style: none;
     font-size: 1.2em;
     font-weight: 600;
-        padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 30px;
 }
+
+
 /*--------------------------- About Page -----*/
 
-.members {
-    background-color: rgba(39, 33, 27, 0.7);
-    height: 250px;
-        margin-bottom: 25px;
-        
-}
-.artist-left {
-    padding-top: 30px;
-    text-align: left;
-    font-size: 1.2em;
-    color: #fff;
-        padding-left: 40px;
+.about-image {
+    background-image: url("/assets/images/about-header.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
-.artist-right {
-    padding-top: 30px;
-    text-align: right;
-    font-size: 1.2em;
-    color: #fff;
-    padding-right: 40px;
+.members {
+    margin-bottom: 10px;
+}
+
+.members .img-responsive {
+    max-height: 210px;
+}
+
+.members p {
+    font-size: 0.8em;
 }
 
 p.name {
     font-weight: 600;
-}
-img.img-right {
-    right: -25px;
-    position: relative;
-}
-
-img.img-left {
-    left: -25px;
-    position: relative;
 }
 
 section.album-history {
     background-color: #d97e32;
 }
 
-table.table.table-bordered {
+table {
     color: #1e1b1a;
-    background-color: #e5d5b7;
+    background-color: #fff;
 }
 
+.container.album-container {
+    margin-top: 30px;
+}
 
+.members-text {
+    padding: 10px;
+}
+
+table img {
+    max-height: 100px;
+}
 
 /*--------------------------- Media Queries -----*/
 
@@ -563,29 +622,36 @@ table.table.table-bordered {
     .navbar-brand {
         padding: 20px 20px;
     }
-    
-    .book-us blockquote {
-    font-size: 10px;
-}
 
-p.book {
-    font-size: 12px;
-}
-    
-    
-    
-    
-    
+    .book-us blockquote {
+        font-size: 10px;
+    }
+
+    p.book {
+        font-size: 12px;
+    }
+    ul.nav.navbar-nav {
+        bottom: -9px;
+    }
+    .banner {
+        width: 96%;
+    }
+    ul.event-listing {
+        line-height: 47px;
+    }
 }
 
 @media (min-width: 992px) {
-    
+
     .book-us blockquote {
-    font-size: 13px;
-}
-p.book {
-    font-size: 14px;
-}
+        font-size: 13px;
+    }
+    p.book {
+        font-size: 14px;
+    }
+    .contact-form {
+        margin-top: 0px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -594,4 +660,3 @@ p.book {
         padding-right: 100px;
     }
 }
-

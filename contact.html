@@ -8,10 +8,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" href="/assets/css/styles.css" type="text/css" />
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Contact Us | The Monkees">
+	<meta name="author" content="D Bailey">
 	<link rel="icon" href="../../favicon.ico">
-	<title>Document</title>
+	<title>Contact Us</title>
 </head>
 
 <body>
@@ -20,77 +20,59 @@
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			          </button>
 					<a class="navbar-brand" href="index.html">The Monkees</a>
 				</div>
 				<div id="navbar" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="listen.html">Listen</a></li>
 						<li><a href="events.html">Events</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="active"><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
-
 			</div>
 		</nav>
 	</header>
 
-    <main>
+	<main>
+		<div class="contact-image">
+			<div class="jumbotron container">
+				<div class="row">
+					<div class="container text-center">
+						<h1 class="text-center main-heading">Contact Us</h1>
+						<div class="col-hidden-xs col-sm-1"></div>
+						<div class="col-xs-12 col-sm-10 contact-form">
+							<form method="post" data-form-title="CONTACT US">
+								<div class="form-group">
+									Name:<br>
+									<input type="text" class="form-control" name="name" data-form-field="Name" required>
+								</div>
+								<div class="form-group">
+									Email:<br>
+									<input type="email" class="form-control" name="email" data-form-field="Email" required>
+								</div>
+								<div class="form-group">
+									Message:<br>
+									<textarea class="form-control" name="message" rows="7" data-form-field="Message"></textarea>
+								</div>
+								<div>
+									<button type="submit" class="btn btn-contact">Send</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-hidden-xs col-sm-1"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 
-        <div class="contact-image">
-            <div class="jumbotron container">
-                <div class="row">
-                    <div class="container text-center">
-                        <h1>Contact Us</h1>
-                        
-                        
-                        
-                        
-<div class="col-hidden-xs col-sm-1"></div>
-<div class="col-xs-12 col-sm-10 contact-form">
-
-  <form method="post" data-form-title="CONTACT US" action="">
-              <div class="form-group">
-                <input type="text" class="form-control" name="name"  placeholder="Name" data-form-field="Name" required>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" placeholder="Email" data-form-field="Email" required>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
-              </div>
-              <div>
-                <button type="submit" class="btn btn-contact">Send</button>
-              </div>
-            </form>
-
-</div>
-
-<div class="col-hidden-xs col-sm-1"></div>
-
-
-
-
-
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-    </main>
- 	
 	<footer class="footer">
 		<div class="top-footer">
 			<div class="container">
@@ -114,9 +96,9 @@
 			<div class="links middle-footer">
 				<div class="container">
 					<ul class="link-list">
-						<li><a href="index.html">Home</a></li> |
-						<li><a href="about.html">About</a></li> |
-						<li><a href="listen.html">Listen</a></li> |
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="listen.html">Listen</a></li>
 						<li><a href="events.html">Events</a></li>
 					</ul>
 				</div>
@@ -127,7 +109,8 @@
 		</div>
 
 	</footer>
-
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
