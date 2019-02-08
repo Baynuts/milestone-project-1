@@ -152,7 +152,7 @@ p.header-second {
 }
 
 .header-image {
-    background-image: url("./assets/images/monkees-header.jpg");
+    background-image: url("../../assets/images/monkees-header.jpg");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
