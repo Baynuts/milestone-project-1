@@ -152,7 +152,7 @@ p.header-second {
 }
 
 .header-image {
-    background-image: url("assets/images/monkees-header.jpg");
+    background-image: url("/assets/images/monkees-header.jpg");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -173,7 +173,7 @@ p.header-second {
 }
 
 .box.reminisce {
-    background-image: url("assets/images/history-hero.jpg");
+    background-image: url("/assets/images/history-hero.jpg");
     background-position: center bottom;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -221,7 +221,7 @@ p.hero-title {
 
 .albums-row {
     background-color: #e7e1d1;
-    background-image: url("assets/images/home-bg-top.png");
+    background-image: url("/assets/images/home-bg-top.png");
     background-position: left top;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -311,7 +311,7 @@ section.events {
 .book-section {
     background-color: #D97E33;
     padding-bottom: 50px;
-    background-image: url("assets/images/home-bg-bottom.png");
+    background-image: url("/assets/images/home-bg-bottom.png");
     background-position: right bottom;
     background-repeat: no-repeat;
 }
@@ -480,7 +480,7 @@ a.fab.fa-youtube-square.social-icons:hover {
 .listen-page {
     background-color: #f2f2f2;
     padding-bottom: 50px;
-    background-image: url("assets/images/home-bg-top.png");
+    background-image: url("/assets/images/home-bg-top.png");
     background-position: left top;
     background-repeat: no-repeat;
 }
@@ -516,7 +516,7 @@ video {
     background-color: #d97e32;
     padding-top: 70px;
     padding-bottom: 30px;
-    background-image: url(assets/images/home-bg-bottom.png);
+    background-image: url("/assets/images/home-bg-bottom.png");
     background-position: right bottom;
     background-repeat: no-repeat;
 }
@@ -542,7 +542,7 @@ video {
     height: 100%;
     background-color: #f2f2f2;
     padding-bottom: 100px;
-    background-image: url("assets/images/home-bg-top.png");
+    background-image: url("/assets/images/home-bg-top.png");
     background-position: left top;
     background-repeat: no-repeat;
 }
@@ -577,7 +577,7 @@ video {
 section.events-page {
     padding-bottom: 50px;
     background-color: #f2f2f2;
-    background-image: url("assets/images/home-bg-top.png");
+    background-image: url("/assets/images/home-bg-top.png");
     background-position: left top;
     background-repeat: no-repeat;
 }
@@ -635,7 +635,7 @@ ul.event-listing {
     background-color: #f2f2f2;
     text-align: center;
     padding-bottom: 30px;
-    background-image: url("assets/images/home-bg-top.png");
+    background-image: url("/assets/images/home-bg-top.png");
     background-position: left top;
     background-repeat: no-repeat;
 }
@@ -658,7 +658,7 @@ p.name {
 
 section.album-history {
     background-color: #e7e1d1;
-    background-image: url(assets/images/home-bg-bottom.png);
+    background-image: url("/assets/images/home-bg-bottom.png");
     background-position: right bottom;
     background-repeat: no-repeat;
 }

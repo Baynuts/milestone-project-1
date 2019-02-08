@@ -1,4 +1,4 @@
-# README The Monkees Web development
+# README - The Monkees Web Development
 
 ## Table of Contents
 
