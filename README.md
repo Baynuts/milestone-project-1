@@ -3,13 +3,19 @@
 ## Table of Contents
 
 - [Description](#Description)
+- [UX](#UX)
+- [Mockup](#Mockup)
+- [Features](#Features)
+- [Fonts](#Fonts)
+- [Pages](#Pages)
+- [Testing](#Testing)
 - [Technologies](#Technologies)
 - [View](#View)
 
 
 ## Description
 
-Fictitious site for 'The Monkees' band from the 1960's made for educational purposes.
+Fictitious site for 'The Monkees' band from the 1960's made for first milestone project.
 Created using Bootstrap for general layout and responsive features and then customised for aesthetics. Clear design with easy to follow navigation with retro design.
 Validated fully using w3C validator for HTML and CSS.
 
@@ -20,7 +26,8 @@ It has been kept clean and clear as the demographic audience is in the older age
 
 ### Mockup
 
-Can be viewed @ milestone-project-1/assets/images/home-page-mockup.jpg
+Can be viewed @ 
+https://baynuts.github.io/milestone-project-1/assets/images/home-page-mockup.jpg
       
 ## Features
 
@@ -40,11 +47,11 @@ Can be viewed @ milestone-project-1/assets/images/home-page-mockup.jpg
 
 ### Pages
 
--index.html
--events.html
--contact.html
--about.html
--listen.html
+- index.html
+- events.html
+- contact.html
+- about.html
+- listen.html
 
 ## Testing
 
@@ -59,10 +66,9 @@ Can be viewed @ milestone-project-1/assets/images/home-page-mockup.jpg
 - FontAwesome
 - Google Fonts
 - Cloud9 IDE
-- Balsamiq
+- Adobe Fireworks
 - Git
 - GitHub
-
 
 
 ## View
