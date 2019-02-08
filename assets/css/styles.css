@@ -9,6 +9,7 @@ html {
 
 body {
     font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -22,45 +23,22 @@ body {
 }
 
 .navbar-inverse {
-    background-color: #211C16;
-    background-image: linear-gradient(#211C16, #3C352D);
-}
-
-.navbar-inverse .navbar-brand {
-    font-family: chicle;
-    font-size: 3.2em;
-}
-
-.navbar-inverse .navbar-brand {
-    color: #E5D5B7;
-}
-
-.navbar-inverse .navbar-brand:focus,
-.navbar-inverse .navbar-brand:hover {
-    color: #F1E9D8;
-}
-
-ul.nav.navbar-nav {
-    border-bottom: 5px solid #90332E;
-    bottom: -7px;
-    position: relative;
+    background-color: #363332;
 }
 
 .navbar-inverse .navbar-nav>.active>a {
-    color: #E5D5B7;
-    background-color: #90332E;
+    background-color: #FF974F;
 }
 
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
-    background-color: #90332E;
     color: #F1E9D8
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    padding: 18px 20px 18px 20px;
-    color: #D97E33;
-    text-transform: uppercase;
+    padding: 25px 20px 25px 20px;
+    color: #ffffff;
+    text-transform: lowercase;
     font-weight: 800;
 }
 
@@ -79,17 +57,24 @@ ul.nav.navbar-nav {
 .navbar-toggle {
     border: none;
     border-radius: 0;
+    padding: 16px 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .navbar-toggle .icon-bar {
     width: 30px;
 }
 
-.navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle:hover {
-    background-color: #91312a;
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ff974f;
 }
 
+.navbar-brand>img {
+    display: block;
+    max-height: 65px;
+    margin-top: -22px;
+}
 
 /*--------------------------- Fonts -----*/
 
@@ -138,25 +123,51 @@ h1.main-heading:after {
 }
 
 .jumbotron h1 {
-    font-size: 2em;
+    font-size: 4em;
+    font-family: chicle;
+    text-shadow: 1px 1px #363332;
+    text-align: center;
+    margin-top: 200px;
 }
 
-.jumbotron p {
+p.header-first {
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px #363332;
     font-size: 1em;
+}
+
+p.header-second {
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px #363332;
+    font-size: 1.5em;
+}
+
+button.btn.btn-jumbo {
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px 60px 10px 60px;
+    text-align: center;
+    background-color: #F54F29;
+    margin-left: -10px;
 }
 
 .jumbotron {
     padding-bottom: 0px;
     color: white;
     background-color: transparent;
+    text-align: center;
 }
 
 .header-image {
-    background-image: url("/assets/images/monkees-header.jpg");
-    height: 100%;
+    background-image: url("/assets/images/monkees-header-2.jpg");
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 5px solid #9C9B7D;
 }
 
 .banner {
@@ -219,7 +230,7 @@ p.hero-title {
 /*--------------------------- Albums section -----*/
 
 .albums-row {
-    background-color: #2E2928;
+    background-color: #363332;
     margin-top: 0;
     position: relative;
     padding-bottom: 50px;
@@ -227,7 +238,7 @@ p.hero-title {
 
 h2.albums {
     font-family: chicle;
-    color: #E5D5B7;
+    color: #405952;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -241,7 +252,7 @@ h2.albums:after {
     width: 50%;
     height: 1px;
     content: '\a0';
-    background-color: #e5d5b7;
+    background-color: #405952;
 }
 
 h2.albums:before {
@@ -249,10 +260,17 @@ h2.albums:before {
     text-align: right;
 }
 
+.albums-container {
+    width:800px;
+}
+
 .product-list {
-    padding: 10px 10px 0 10px;
-    background-color: #E5D5B7;
-    margin: 10px;
+    padding: 0px 10px 10px 10px;
+    background-color: #fff;
+    margin: 30px 20px 20px 10px;
+    border: 1px solid rgba(221, 221, 221, 0.58);
+    border-radius: 5px 5px 40px 0px;
+    border-bottom: 5px solid #E45B39;
 }
 
 .product-list .img-responsive {
@@ -271,16 +289,34 @@ h2.albums:before {
 
 .product-list>span {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.7em;
     display: block;
-    font-weight: 700;
+    font-weight: 5005;
     font-family: sans-serif;
+    color: #9c9b7d;
+    padding: 10px;
+}
+
+section.events {
+    background-color: #f2f2f2;
+}
+
+.img-events {
+    border-bottom: 10px solid #ff974f;
+    margin-bottom: 50px;
+    border-radius: 0 0 40px 0;
+}
+
+.events-text {
+    margin-bottom: 50px;
+    font-size: 12px;
 }
 
 /*--------------------------- Book Us section -----*/
 
 .book-section {
     background-color: #D97E33;
+    padding-bottom: 50px;
 }
 
 h2.book-heading {
@@ -332,6 +368,22 @@ p.book {
 
 .book-btn-container {
     text-align: center;
+}
+
+.btn.btn-events {
+    background-color: #db7e27;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.events-btn {
+    text-align: center;
+}
+
+.event-list-sm {
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
 }
 
 /*--------------------------- Footer -----*/
@@ -491,7 +543,7 @@ video {
 .contact-form {
     padding-top: 10px;
     padding-bottom: 30px;
-    background-color: #e5d5b4;
+    background-color: rgba(229, 213, 180, 0.8);
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -619,10 +671,9 @@ table img {
 @media (min-width: 576px) {}
 
 @media (min-width: 768px) {
-    .navbar-brand {
-        padding: 20px 20px;
+    ul.nav.navbar-nav {
+    float: right;
     }
-
     .book-us blockquote {
         font-size: 10px;
     }
@@ -630,14 +681,20 @@ table img {
     p.book {
         font-size: 12px;
     }
-    ul.nav.navbar-nav {
-        bottom: -9px;
-    }
     .banner {
         width: 96%;
     }
     ul.event-listing {
         line-height: 47px;
+    }
+    .jumbotron h1 {
+    margin-top: 300px;
+    }
+    .product-list {
+    margin: -25px 5px 5px 5px;
+    }
+    .header-image {
+    height: 700px;
     }
 }
 
@@ -652,11 +709,11 @@ table img {
     .contact-form {
         margin-top: 0px;
     }
+    section.events {
+    padding-bottom: 35px;
+}
 }
 
 @media (min-width: 1200px) {
-    .navbar-brand {
-        padding-left: 200px;
-        padding-right: 100px;
-    }
+
 }
