@@ -80,9 +80,9 @@ body {
 
 h1.main-heading {
     font-family: chicle;
-    color: #fff;
+    color: #db7e26;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 40px;
     font-size: 2.5em!important;
     overflow: hidden;
@@ -112,16 +112,6 @@ h1.main-heading:after {
 
 /*--------------------------- Hero area -----*/
 
-.hero {
-    background-color: #D97E33;
-    line-height: 40px;
-    text-transform: uppercase;
-    font-family: chicle;
-    padding: 5px 5px 5px 25px;
-    font-size: 1.6em;
-    display: block;
-}
-
 .jumbotron h1 {
     font-size: 4em;
     font-family: chicle;
@@ -144,7 +134,7 @@ p.header-second {
     font-size: 1.5em;
 }
 
-button.btn.btn-jumbo {
+.btn-jumbo {
     border-radius: 20px;
     color: #ffffff;
     font-weight: 600;
@@ -162,7 +152,7 @@ button.btn.btn-jumbo {
 }
 
 .header-image {
-    background-image: url("/assets/images/monkees-header-2.jpg");
+    background-image: url("/assets/images/monkees-header.jpg");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -230,7 +220,10 @@ p.hero-title {
 /*--------------------------- Albums section -----*/
 
 .albums-row {
-    background-color: #363332;
+    background-color: #e7e1d1;
+    background-image: url("/assets/images/home-bg-top.png");
+    background-position: left top;
+    background-repeat: no-repeat;
     margin-top: 0;
     position: relative;
     padding-bottom: 50px;
@@ -238,7 +231,7 @@ p.hero-title {
 
 h2.albums {
     font-family: chicle;
-    color: #405952;
+    color: #363332;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -252,7 +245,7 @@ h2.albums:after {
     width: 50%;
     height: 1px;
     content: '\a0';
-    background-color: #405952;
+    background-color: #363332;
 }
 
 h2.albums:before {
@@ -261,7 +254,7 @@ h2.albums:before {
 }
 
 .albums-container {
-    width:800px;
+    width: 800px;
 }
 
 .product-list {
@@ -291,7 +284,7 @@ h2.albums:before {
     text-align: center;
     font-size: 1.7em;
     display: block;
-    font-weight: 5005;
+    font-weight: 500;
     font-family: sans-serif;
     color: #9c9b7d;
     padding: 10px;
@@ -309,7 +302,8 @@ section.events {
 
 .events-text {
     margin-bottom: 50px;
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 /*--------------------------- Book Us section -----*/
@@ -317,6 +311,9 @@ section.events {
 .book-section {
     background-color: #D97E33;
     padding-bottom: 50px;
+    background-image: url("/assets/images/home-bg-bottom.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
 
 h2.book-heading {
@@ -345,7 +342,7 @@ h2.book-heading:before {
 
 blockquote {
     font-size: 15px;
-    background-color: #e5d5b7;
+    background-color: #e7e1d1;
     border-left: 5px solid #c26932;
 }
 
@@ -358,9 +355,16 @@ p.book {
     font-weight: 700;
 }
 
+.btn.btn-book-us {
+    background-color: #b3650d;
+    color: #f2f2f2;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
 .btn.btn-book {
-    background-color: #c26932;
-    color: #e5d5b7;
+    background-color: #F54F29;
+    color: #f2f2f2;
     border-radius: 30px;
     margin-bottom: 20px;
     font-weight: 700;
@@ -376,6 +380,7 @@ p.book {
     border-radius: 20px;
     margin-top: 20px;
 }
+
 .events-btn {
     text-align: center;
 }
@@ -472,13 +477,12 @@ a.fab.fa-youtube-square.social-icons:hover {
 
 /*--------------------------- Listen Page -----*/
 
-.listen-image {
-    background-image: url("/assets/images/listen-header.jpg");
-    height: 100%;
-    background-position: center;
+.listen-page {
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+    background-image: url("/assets/images/home-bg-top.png");
+    background-position: left top;
     background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
 }
 
 .listen-h2 {
@@ -510,8 +514,11 @@ video {
 
 .row.listen-row {
     background-color: #d97e32;
-    padding-top: 30px;
+    padding-top: 70px;
     padding-bottom: 30px;
+    background-image: url(/assets/images/home-bg-bottom.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
 
 .audio-showcase>p {
@@ -531,27 +538,31 @@ video {
 
 /*--------------------------- Contact Page -----*/
 
-.contact-image {
-    background-image: url("/assets/images/contact-header.jpg");
+.contact-page {
     height: 100%;
-    background-position: center;
+    background-color: #f2f2f2;
+    padding-bottom: 100px;
+    background-image: url("/assets/images/home-bg-top.png");
+    background-position: left top;
     background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
 }
 
 .contact-form {
     padding-top: 10px;
     padding-bottom: 30px;
-    background-color: rgba(229, 213, 180, 0.8);
+    background-color: #e7e1d1;
     margin-top: 20px;
     margin-bottom: 50px;
+    font-weight: 600;
 }
 
 .btn-contact {
-    background-color: #90332e;
+    background-color: #F54F29;
     text-transform: uppercase;
     font-weight: 700;
+    border-radius: 20px;
+    color: #f2f2f2;
+    padding: 5px 30px 5px 30px;
 }
 
 .btn-contact:hover {
@@ -563,17 +574,16 @@ video {
 
 /*--------------------------- Event Page -----*/
 
-.event-image {
-    background-image: url("/assets/images/events-header.jpg");
-    height: 100%;
-    background-position: center;
+section.events-page {
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+    background-image: url("/assets/images/home-bg-top.png");
+    background-position: left top;
     background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
 }
 
 .book-us {
-    background-color: rgba(41, 36, 29, 0.76);
+    background-color: #fff;
 }
 
 .book-us blockquote {
@@ -589,11 +599,11 @@ video {
     margin-top: 0px;
     margin-left: -15px;
     margin-right: -15px;
-    padding: 5px 0px;
+    padding: 5px 15px;
 }
 
 .event-list-lg {
-    background-color: rgba(30, 27, 26, 0.7);
+    background-color: #fff;
     margin-bottom: 50px;
 }
 
@@ -605,7 +615,7 @@ video {
     margin-top: 0px;
     margin-left: -15px;
     margin-right: -15px;
-    padding: 5px 0px;
+    padding: 5px 15px;
 }
 
 ul.event-listing {
@@ -620,13 +630,14 @@ ul.event-listing {
 
 /*--------------------------- About Page -----*/
 
-.about-image {
-    background-image: url("/assets/images/about-header.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.about-section {
+    color: black;
+    background-color: #f2f2f2;
     text-align: center;
+    padding-bottom: 30px;
+    background-image: url("/assets/images/home-bg-top.png");
+    background-position: left top;
+    background-repeat: no-repeat;
 }
 
 .members {
@@ -634,11 +645,11 @@ ul.event-listing {
 }
 
 .members .img-responsive {
-    max-height: 210px;
+    max-height: 250px;
 }
 
 .members p {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 p.name {
@@ -646,16 +657,15 @@ p.name {
 }
 
 section.album-history {
-    background-color: #d97e32;
+    background-color: #e7e1d1;
+    background-image: url(/assets/images/home-bg-bottom.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
 
 table {
     color: #1e1b1a;
     background-color: #fff;
-}
-
-.container.album-container {
-    margin-top: 30px;
 }
 
 .members-text {
@@ -666,13 +676,44 @@ table img {
     max-height: 100px;
 }
 
+.img-thumbnail {
+    border: 1px solid #eae9e9;
+    border-radius: 5px 5px 50px 0;
+    border-bottom: 10px solid #F54F29;
+    padding: 0;
+}
+
+h2.albums-page {
+    font-family: chicle;
+    color: #f74e18;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+h2.albums-page:before,
+h2.albums-page:after {
+    position: absolute;
+    top: 46px;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: #f74e18;
+}
+
+h2.albums-page:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+
 /*--------------------------- Media Queries -----*/
 
-@media (min-width: 576px) {}
 
 @media (min-width: 768px) {
     ul.nav.navbar-nav {
-    float: right;
+        float: right;
     }
     .book-us blockquote {
         font-size: 10px;
@@ -685,16 +726,23 @@ table img {
         width: 96%;
     }
     ul.event-listing {
-        line-height: 47px;
+        line-height: 45px;
     }
     .jumbotron h1 {
-    margin-top: 300px;
+        margin-top: 300px;
     }
     .product-list {
-    margin: -25px 5px 5px 5px;
+        margin: -25px 5px 5px 5px;
     }
     .header-image {
-    height: 700px;
+        height: 700px;
+    }
+    events-text {
+        line-height: 20px;
+    }
+    .event-list-lg,
+    .book-us {
+        height: 780px;
     }
 }
 
@@ -710,10 +758,15 @@ table img {
         margin-top: 0px;
     }
     section.events {
-    padding-bottom: 35px;
-}
-}
-
-@media (min-width: 1200px) {
-
+        padding-bottom: 35px;
+    }
+    video {
+        max-width: 100%;
+    }
+    ul.event-listing {
+        line-height: 46px;
+    }
+    section.events-page {
+        padding-bottom: 150px;
+    }
 }
