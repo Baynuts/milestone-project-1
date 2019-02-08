@@ -152,7 +152,7 @@ p.header-second {
 }
 
 .header-image {
-    background-image: url("../../assets/images/monkees-header.jpg");
+    background-image: url('../assets/images/monkees-header.jpg');
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -173,7 +173,7 @@ p.header-second {
 }
 
 .box.reminisce {
-    background-image: url("./assets/images/history-hero.jpg");
+    background-image: url('./assets/images/history-hero.jpg');
     background-position: center bottom;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -221,7 +221,7 @@ p.hero-title {
 
 .albums-row {
     background-color: #e7e1d1;
-    background-image: url("./assets/images/home-bg-top.png");
+    background-image: url('assets/images/home-bg-top.png');
     background-position: left top;
     background-repeat: no-repeat;
     margin-top: 0;
