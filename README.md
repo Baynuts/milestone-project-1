@@ -1,26 +1,29 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# README The Monkees Web development
+
+## Table of Contents
+
+- [Description](#Description)
+- [Technologies](#Technologies)
+- [View](#View)
 
 
-Hi there! Welcome to Cloud9 IDE!
+## Description
 
-To get you started, we included a small hello world application.
-
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
+Fictitious site for 'The Monkees' band from the 1960's made for educational purposes.
+Created using Bootstrap for general layout and responsive features and then customised for aesthetics. Clear design with easy to follow navigation with retro design.
+Validated fully using w3C validator for HTML and CSS.
 
 
-## Support & Documentation
+## Technologies
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+- Bootstrap
+- FontAwesome
+- Cloud9 IDE
+- Git
+- GitHub
+
+
+
+## View
+The code can be viewed using GitHub pages: 
+https://baynuts.github.io/milestone-project-1/
