@@ -363,6 +363,12 @@ p.book {
     padding: 5px 20px 5px 20px;
 }
 
+.btn.btn-book-us:hover {
+    background-color: #f2f2f2;
+    color: #d97e33;
+    border: 1px solid #f2f2f2;
+}
+
 .btn.btn-book {
     background-color: #F54F29;
     color: #f2f2f2;
@@ -382,6 +388,12 @@ p.book {
     margin-top: 20px;
 }
 
+.btn.btn-events:hover {
+    background-color: #f2f2f2;
+    color: #db7e27;
+    border: 1px solid #db7e27;
+}
+
 .events-btn {
     text-align: center;
 }
@@ -397,10 +409,6 @@ p.book {
 .footer {
     background-color: #1E1B1A;
     color: #E5D5B7;
-}
-
-.top-footer {
-    border-top: 10px solid #E5D5B7;
 }
 
 .top-footer li {
@@ -431,9 +439,20 @@ p.book {
     display: block;
 }
 
-a.social-links {
+a .social-links {
     color: #E5D5B7;
-    font-size: 0.7em;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+a .social-links:hover {
+    color: #E5D5B7;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
 }
 
 ul.link-list {
@@ -459,14 +478,17 @@ ul.link-list {
 
 a.fab.fa-facebook-square.social-icons:hover {
     color: #3b5998;
+    text-decoration: none;
 }
 
 a.fab.fa-twitter-square.social-icons:hover {
     color: #00aced;
+    text-decoration: none;
 }
 
 a.fab.fa-youtube-square.social-icons:hover {
     color: #ff0000;
+    text-decoration: none;    
 }
 
 .bottom-footer {
@@ -567,9 +589,8 @@ video {
 }
 
 .btn-contact:hover {
-    background-color: #E5D5B7;
-    text-transform: uppercase;
-    font-weight: 700;
+    background-color: #fa7b1a;
+    color: #f2f2f2;
 }
 
 
@@ -623,9 +644,13 @@ ul.event-listing {
     list-style: none;
     font-size: 1.2em;
     font-weight: 600;
-    padding-left: 0;
+    padding-left: 20px;
     padding-right: 0;
     padding-bottom: 30px;
+}
+
+.break {
+    padding-left: 20px;
 }
 
 
@@ -708,6 +733,20 @@ h2.albums-page:before {
     text-align: right;
 }
 
+a.btn.btn-about {
+    background-color: #fff;
+    color: #f46838;
+    border: 1px solid #f18962;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-top: 30px;
+}
+
+a.btn.btn-about:hover {
+    background-color: #fa4d00;
+    color: #ffffff;
+    border: 1px solid #f18962;
+}
 
 /*--------------------------- Media Queries -----*/
 
@@ -728,6 +767,7 @@ h2.albums-page:before {
     }
     ul.event-listing {
         line-height: 45px;
+        padding-left: 20px;
     }
     .jumbotron h1 {
         margin-top: 300px;
@@ -766,8 +806,12 @@ h2.albums-page:before {
     }
     ul.event-listing {
         line-height: 46px;
+        padding-left: 50px;
     }
+    .break {
+        padding-left: 50px;
+    }    
     section.events-page {
-        padding-bottom: 150px;
+        padding-bottom: 0;
     }
 }
